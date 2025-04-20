@@ -1,5 +1,9 @@
 # pdf2pptx
 
+> This repository is dependency fix of original package
+> 
+> Original project link: https://github.com/kevinmcguinness/pdf2pptx
+
 **Utility to convert a PDF slideshow to Powerpoint PPTX.**
 
 Renders each page as a PNG image and creates the resulting Powerpoint 

@@ -11,17 +11,17 @@ with io.open(os.path.join(here, 'README.md'), encoding='utf-8') as f:
     long_description = '\n' + f.read()
 
 setup(
-   name='pdf2pptx',
-   version='1.0.5',
+   name='pdf2pptx-fix',
+   version='1.0.5.1',
    description='Utility to convert a PDF slideshow to Powerpoint PPTX.',
    long_description=long_description,
    long_description_content_type='text/markdown',
    author='Kevin McGuinness',
-   url='https://github.com/kevinmcguinness/pdf2pptx',
+   url='https://github.com/doctorixx/pdf2pptx-fix',
    license='MIT',
-   author_email='kevin.mcguinness@gmail.com',
+   author_email='genius@doctorixx.ru',
    packages=['pdf2pptx'],
-   install_requires=['pymupdf==1.20.1', 'python-pptx', 'click', 'tqdm'],
+   install_requires=['pymupdf', 'python-pptx', 'click', 'tqdm'],
    entry_points={
        'console_scripts': ['pdf2pptx=pdf2pptx.cli:main'],
    },
