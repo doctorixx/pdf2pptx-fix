@@ -21,7 +21,7 @@ Uses [PyMuPDF](https://github.com/pymupdf/PyMuPDF) and
 ## Installation
 
 ```bash
-pip install pdf2pptx
+pip install pdf2pptx-fix
 ```
 
 ## Usage
